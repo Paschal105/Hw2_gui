@@ -1,0 +1,122 @@
+/*
+
+File: pacific.css
+GUI Assignment: style a cite with external css
+Paschal Ojatabu , UMass Lowell Computer Science,
+Paschal_Ojatabu@student.uml.edu
+Copyright (c) 2023 by Paschal. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by WZ on october,10th  2023 at 10:00pm
+
+
+*/
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+#wrapper{
+	width: 80%;
+	min-width: 600px;
+	background-color: #79addb;
+	margin:10px auto 50px auto;
+	border: 0px;
+	padding-bottom: 0px;
+	
+}
+#content{
+	background-color: white;
+	padding: 1px 20px 20px 30px;
+	margin-left: 185px;
+	/* margined it so it can alway keep that boundaries, they might be other way but thats might be the easiers*/
+
+}
+#content p{
+	display: inline;
+	/* this make it aline with the image  */
+}
+#content ul{
+	list-style-image: url('marker.gif');
+	/* the special bullet point*/
+}
+#content ul li{
+	list-style-position: inside;
+}
+body {
+	background-color: #00569f;
+	background-image: url('ptrbackground.jpg')  ;/* upload the image and make sure there is not repeat */
+	background-repeat: repeat-x;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+	padding: 20px 5px 5px 0px;
+	width: 160px;
+	float: left;
+}
+nav ul {
+	font-size: 1.2em;
+	list-style-type: none;
+	font-weight: bold;
+	margin: 0px;
+	padding-top: 10px;
+	padding-left: 20px;
+
+}
+a{
+	text-decoration: none;
+	color: rgb(11, 12, 70);
+	padding: 6px 18px 5px 8px;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+	color: white;
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 100%;   /* this is just for the image to take the whole space*/
+	
+}
+h2 {
+	color: #3399CC;
+}
+img{
+	max-width: 100%;
+	float: left;
+	padding-right: 50px;
+}
+.resort{
+	color:rgb(64, 96, 144);
+	font-weight: bold;  /* add color and bold*/
+}
+h1,h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+}
+dt {
+	color: #000033;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	font-size: small;
+	background-color: white;
+	margin-left: 185px;   /*keeps the same margin as in the top*/
+	padding: 30px;
+	
+}
+
+footer a{
+	color: blue;
+	text-decoration: underline;
+	padding: 0px;
+}
